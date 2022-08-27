@@ -1,7 +1,7 @@
-package com.workTypeCalendar.bean;
+package com.isakayabasi.worktypeschedule.bean;
 
 
-import com.workTypeCalendar.auditor.AuditorAwareImpl;
+import com.isakayabasi.worktypeschedule.auditor.AuditorAwareImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;

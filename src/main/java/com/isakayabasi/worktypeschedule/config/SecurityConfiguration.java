@@ -1,7 +1,7 @@
-package com.workTypeCalendar.config;
+package com.isakayabasi.worktypeschedule.config;
 
 
-import com.workTypeCalendar.service.IUserService;
+import com.isakayabasi.worktypeschedule.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

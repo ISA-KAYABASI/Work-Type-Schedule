@@ -1,6 +1,6 @@
-package com.workTypeCalendar.repository;
+package com.isakayabasi.worktypeschedule.repository;
 
-import com.workTypeCalendar.model.User;
+import com.isakayabasi.worktypeschedule.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

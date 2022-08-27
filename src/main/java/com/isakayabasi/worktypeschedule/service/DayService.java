@@ -1,14 +1,13 @@
-package com.workTypeCalendar.service;
+package com.isakayabasi.worktypeschedule.service;
 
 
-import com.workTypeCalendar.model.Day;
+import com.isakayabasi.worktypeschedule.model.Day;
+
 
 import java.util.List;
 
 public interface DayService {
 
-    Day saveDay(Day day);
 
-    List<Day> getAllDays();
 
 }

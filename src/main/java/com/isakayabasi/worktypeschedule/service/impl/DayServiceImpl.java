@@ -1,8 +1,9 @@
-package com.workTypeCalendar.service.impl;
+package com.isakayabasi.worktypeschedule.service.impl;
 
-import com.workTypeCalendar.model.Day;
-import com.workTypeCalendar.repository.DayRepository;
-import com.workTypeCalendar.service.DayService;
+
+import com.isakayabasi.worktypeschedule.model.Day;
+import com.isakayabasi.worktypeschedule.repository.DayRepository;
+import com.isakayabasi.worktypeschedule.service.DayService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

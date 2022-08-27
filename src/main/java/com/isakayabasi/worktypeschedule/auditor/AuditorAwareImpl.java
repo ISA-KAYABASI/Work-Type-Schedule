@@ -1,4 +1,4 @@
-package com.workTypeCalendar.auditor;
+package com.isakayabasi.worktypeschedule.auditor;
 
 import org.springframework.data.domain.AuditorAware;
 

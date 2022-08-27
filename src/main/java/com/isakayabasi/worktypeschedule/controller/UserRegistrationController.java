@@ -1,7 +1,7 @@
-package com.workTypeCalendar.controller;
+package com.isakayabasi.worktypeschedule.controller;
 
-import com.workTypeCalendar.dto.UserRegistrationDto;
-import com.workTypeCalendar.service.IUserService;
+import com.isakayabasi.worktypeschedule.dto.UserRegistrationDto;
+import com.isakayabasi.worktypeschedule.service.IUserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;

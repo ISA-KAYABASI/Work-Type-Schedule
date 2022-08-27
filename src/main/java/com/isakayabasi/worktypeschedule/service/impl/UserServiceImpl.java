@@ -1,11 +1,11 @@
-package com.workTypeCalendar.service.impl;
+package com.isakayabasi.worktypeschedule.service.impl;
 
 
-import com.workTypeCalendar.dto.UserRegistrationDto;
-import com.workTypeCalendar.model.Role;
-import com.workTypeCalendar.model.User;
-import com.workTypeCalendar.repository.UserRepository;
-import com.workTypeCalendar.service.IUserService;
+import com.isakayabasi.worktypeschedule.dto.UserRegistrationDto;
+import com.isakayabasi.worktypeschedule.model.Role;
+import com.isakayabasi.worktypeschedule.model.User;
+import com.isakayabasi.worktypeschedule.repository.UserRepository;
+import com.isakayabasi.worktypeschedule.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.security.core.GrantedAuthority;
@@ -69,22 +69,6 @@ public class UserServiceImpl implements IUserService {
 
         return userRepository.save(user);
     }
-
-//    @Override
-//    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-//
-//        User user = userRepository.findByEmail(username);
-//
-//        if( user == null ){
-//            throw new UsernameNotFoundException("Invalid username or password.");
-//        }
-//
-//        // Email = username
-//        return new org.springframework.security.core.userdetails.User(user.getEmail(),user.getPassword(),mapRolesToAuthorities(user.getRoles()));
-//
-//        // FirstName == username
-//        //return new org.springframework.security.core.userdetails.User(user.getFirstName() ,user.getPassword(),mapRolesToAuthorities(user.getRoles()));
-//    }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

@@ -1,4 +1,4 @@
-package com.workTypeCalendar.dto;
+package com.isakayabasi.worktypeschedule.dto;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.workTypeCalendar.model;
+package com.isakayabasi.worktypeschedule.model;
 
 public enum WorkType {
 

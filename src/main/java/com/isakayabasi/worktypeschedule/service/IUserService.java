@@ -1,8 +1,8 @@
-package com.workTypeCalendar.service;
+package com.isakayabasi.worktypeschedule.service;
 
 
-import com.workTypeCalendar.dto.UserRegistrationDto;
-import com.workTypeCalendar.model.User;
+import com.isakayabasi.worktypeschedule.dto.UserRegistrationDto;
+import com.isakayabasi.worktypeschedule.model.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;

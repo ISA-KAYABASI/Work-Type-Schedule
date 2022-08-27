@@ -1,4 +1,4 @@
-package com.workTypeCalendar.model;
+package com.isakayabasi.worktypeschedule.model;
 
 
 import lombok.*;
@@ -51,15 +51,6 @@ public class User{
         this.password = password;
     }
 
-//    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-//    @JoinTable(name = "USER_CALENDAR_TABLE",
-//            joinColumns = @JoinColumn(
-//                    name = "user_id", referencedColumnName = "id"),
-//
-//            inverseJoinColumns = @JoinColumn(
-//                    name = "userCalendar_id", referencedColumnName = "id"))
-//    private Set<UserCalendar> userCalendars;
-//   ***************************************
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "users_roles_",
