@@ -13,8 +13,6 @@ public interface IUserService extends UserDetailsService {
 
     List<User> getAllUsers();
 
-//    User addDayPlan(User user);
-
     User getUserById(Long id);
     User getUserByEmail(String Email);
 
